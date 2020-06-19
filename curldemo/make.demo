@@ -1,0 +1,1 @@
+ g++ -I /data/tools/curl7700/include/ -L  /data/tools/curl7700/lib -lcurl demo.cpp -o demo
