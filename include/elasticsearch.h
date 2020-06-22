@@ -21,8 +21,6 @@
 
 #define EXCEPTION(...) throw Exception(__FILE__, __LINE__, __VA_ARGS__)
 
-#define EXCEPTION(...) throw Exception(__FILE__, __LINE__, __VA_ARGS__)
-
 class Exception : std::exception {
     public:
         template<typename T>
